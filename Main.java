@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Vehiculo v1 = new Auto();
-        Vehiculo v2 = new Moto();
+        Vehiculo a1 = new Auto();
+        Vehiculo a2 = new Moto();
 
-        v1.arrancar(); // Auto
-        v2.arrancar(); // Moto
+        a1.arrancar(); // Auto
+        a2.arrancar(); // Moto
     }
 }
 
